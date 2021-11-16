@@ -9,7 +9,7 @@
 - name: Tag and push to docker hub
   docker_image:
     name: devops:latest
-    repository: 55177152/Myapp
+    repository: 55177152/myapp
     tag: end
     push: yes
 
