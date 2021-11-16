@@ -22,8 +22,8 @@ pipeline
         }
 
 
-	}
-}
+
+
         stage('push docker hub') {
              steps{
                 script{
